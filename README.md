@@ -91,7 +91,45 @@ JSON – Persistent memory and data management
 
 Custom UI/UX – Designed for elegance and usability
 
+---
 
+## BrainDesk-AI: UI/UX Screenshots and Visual Preview
+
+### Loading Screen
+*Appears on app startup*
+![image alt](https://github.com/shubham1919-cloud/BrainDesk-Ai/blob/6e1251c95f4d87666de5c697a23ea6025b4b85b0/Loading%20Screen.png)
+
+### Setup Page 
+*Appears at the beginning when new user installs the application to get started.*
+![image alt](https://github.com/shubham1919-cloud/BrainDesk-Ai/blob/89cc458e9106b18c1a40c7d50a88d84845418edf/setup%20page.jpg)
+
+### Initial Screen/Home
+*Screen appears after the app starts*
+![image alt](https://github.com/shubham1919-cloud/BrainDesk-Ai/blob/6e1251c95f4d87666de5c697a23ea6025b4b85b0/Initial%20screen.png)
+
+### Chat Screen 
+*With an immersive background video slideshow*
+![image alt](https://github.com/shubham1919-cloud/BrainDesk-Ai/blob/6e1251c95f4d87666de5c697a23ea6025b4b85b0/Chatscreen.png)
+
+### Account Dropdown menu 
+*Shows the details of user (like Name, Email, Assistant-voice they selected etc.)*
+![image alt](https://github.com/shubham1919-cloud/BrainDesk-Ai/blob/6e1251c95f4d87666de5c697a23ea6025b4b85b0/Account%20info%20dropdown.png)
+
+### About 
+*When user clicks on "About" button from the account info dropdown menu, the app version shows.*
+![image alt](https://github.com/shubham1919-cloud/BrainDesk-Ai/blob/6e1251c95f4d87666de5c697a23ea6025b4b85b0/app%20version.png)
+
+### Clear History 
+*When user clicks on "Clear History" button from the account info dropdown menu, the previous conversation is cleared.*
+![image alt](https://github.com/shubham1919-cloud/BrainDesk-Ai/blob/6e1251c95f4d87666de5c697a23ea6025b4b85b0/Clear%20chat%20hist.png)
+
+### Give Feedback 
+*When user clicks on "Give Feedback" button from the account info dropdown menu, the submit feedback page shows up.*
+![image alt](https://github.com/shubham1919-cloud/BrainDesk-Ai/blob/6e1251c95f4d87666de5c697a23ea6025b4b85b0/Submit%20feedback.png)
+
+### Sign Out 
+*When user clicks on "Sign-Out" button from the account info dropdown menu, the sign-out confirmation message shows up and when pressed yes the data is erased and you need to login again.*
+![image alt](https://github.com/shubham1919-cloud/BrainDesk-Ai/blob/6e1251c95f4d87666de5c697a23ea6025b4b85b0/signout.png)
 
 ---
 
