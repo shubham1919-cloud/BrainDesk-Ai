@@ -3,7 +3,7 @@ name: Delete PNG Files
 on:
   workflow_dispatch:
 
-# Add these lines right here 👇
+# This block explicitly grants the bot permission to push changes
 permissions:
   contents: write
 
