@@ -1,139 +1,195 @@
 # BrainDesk-Ai
 
-BrainDesk AI
+**Version:**  5.0.1
 
-BrainDesk is an advanced full-screen desktop AI assistant built for immersive, intelligent interaction. Inspired by cinematic visuals and powered by real-time voice and text commands, BrainDesk combines aesthetics with utility—functioning as a virtual desk, a visual assistant, and a personal task manager. Designed and developed solo by Shubham.
+**Platform:**  Windows x64
 
+**Built With:**  Python
 
----
+# 1. Product Definition
+BrainDesk-AI is a Windows desktop assistant designed to support productivity, task execution, system monitoring, and AI-assisted content generation.
 
-Features
+The application operates primarily on the user’s local machine and stores data locally. Certain AI features may require internet connectivity for API-based processing.
 
-1. Immersive Interface
+BrainDesk-AI is currently in beta status.
 
-Interstellar-inspired Globe: A stunning 3D globe with glowing blue rotating rings appears at launch, reminiscent of Interstellar's black hole—designed to create a visually cinematic experience.
+# 2. System Requirements
+  • Windows 10/11 (64-bit)
 
-Ambient River Background: The chat window overlays a looped river video for a calming atmosphere that enhances user focus and clarity.
+  • x64 architecture
 
+  • Minimum 8GB RAM recommended
 
-2. Multi-Modal Interaction
+  • Stable internet connection
 
-Live Voice Interaction: A mic button at the bottom center allows real-time conversations with the AI.
+  • Microphone (for voice interaction)
 
-Text Input: A search bar with an accessible mic icon for typed queries, ensuring inclusivity for all user preferences.
+  • 2 GB of disk space required
 
+# 3. Core Architecture
+BrainDesk-AI uses a modular Python-based architecture with structured JSON configuration and memory handling.
 
-3. Persistent AI Memory
+****► Key Architectural Principles:****
 
-ChatLog System: BrainDesk stores every conversation and memory in ChatLog.json, allowing contextual continuity across sessions.
+      • Modular component design
 
-Adaptive Personality: Learns and evolves with user behavior, retaining custom preferences unless history is cleared.
+      • JSON-based persistent storage
 
+      • Local-first processing model
 
-4. Intelligent Voice Engine
+      • Selective file regeneration for non-core auxiliary files
 
-Speech-to-Text Module: Utilizes a custom voice.html powered by inbuilt JavaScript and Selenium Chrome WebDriver for lightning-fast and offline-capable voice recognition.
+      • Obfuscated core modules for intellectual property protection
 
+Critical system files are protected and should not be modified.
 
-5. Integrated App Launcher
+# 4. Core Functional Modules
+  **► 4.1 AI Interaction Engine**
 
-App Recognition Engine: On first launch, app_name.json and app_name_temp.json are auto-generated to log installed app names, locations, and API triggers for instant launching via text or voice.
+        • Text-based command interface
 
+        • Voice-based input processing
 
-6. Real-Time State Management
+        • Natural Language Processing for contextual understanding
 
-Status Tracking: A Status.data file reflects the AI’s current activity: Available, Listening, Answering, or Searching.
+        • Dynamic language switching without restart
+        
+  AI output accuracy may vary. Users must independently verify critical results.
 
-Mic Tracker: Mic.data manages the mic status, ensuring responsive listening and visual cues.
+  **► 4.2 Adaptive Personality Layer**
 
+        • Adjustable tone configuration
 
-7. Internal Communication System
+        • Persistent behavioral adjustments based on interaction style
 
-Background Process Handler: Database.data handles all internal messages and backend tasks before responding, including system actions like “History cleared.”
+  **► 4.3 Task Automation Module**
 
-AI Response Archive: Responses.data stores all generated responses for future optimization and analysis.
+        • Batch execution of multiple commands
 
+        • Application launching
 
-8. Creative Tools
+        • Workflow shortcuts
 
-Image Generator: When prompted (e.g., "Generate an image of an apple"), Image generation.data logs the task and updates its status after image generation completes.
+        • Basic content generation tasks
 
+  Execution permissions depend on user system privileges.
 
-9. Modular and Auto-Healing
+  **► 4.4 Application Integration**
 
-Auto-Regeneration: If key files (like voice.html, ChatLog.json) are missing or deleted, BrainDesk recreates them automatically to ensure stability.
+        • Launches supported local applications via text or voice
 
----
+        • No background surveillance or monitoring of third-party app data
 
-Upcoming Goals
+  **► 4.5 Generative Capabilities**
 
-In-app payment integration for premium features
+        • Text-based content generation
 
-Smart glasses integration with live translation, VR navigation, and face recognition
+        • Image generation (up to four images per prompt, API-dependent)
 
-Real-time calendar and task automation
+        • PDF creation including structured text and embedded images
 
-Plugin ecosystem for third-party app extension
+        • Flashcard-style formatted documents
+        
+  Generated content may contain inaccuracies. BrainDesk-AI does not guarantee originality, factual accuracy, or suitability for professional use.
 
+  **► 4.6 System Monitoring**
 
+        • CPU usage tracking
 
----
+        • RAM monitoring
+        
+        • Disk usage
 
-Tech Stack
+        • Network activity overview
 
-Python – Backend logic, file operations, and AI behavior
+        • Battery status (If available)
 
-JavaScript + HTML – Voice processing and UI utilities
+  Resource monitoring is local and used solely for user-visible reporting.
 
-Selenium WebDriver – Voice input automation
+# 5. Data & Privacy Model
 
-JSON – Persistent memory and data management
+  • All persistent memory is stored locally.
 
-Custom UI/UX – Designed for elegance and usability
+  • No centralized tracking.
 
----
+  • No telemetry collection.
 
-## BrainDesk-AI: UI/UX Screenshots and Visual Preview
+  • No user behavior analytics sent to the developer.
 
-### Loading Screen
-*Appears on app startup*
-![image alt](https://github.com/shubham1919-cloud/BrainDesk-Ai/blob/6e1251c95f4d87666de5c697a23ea6025b4b85b0/Loading%20Screen.png)
+  • External API calls may process query content depending on feature usage.
 
-### Setup Page 
-*Appears at the beginning when new user installs the application to get started.*
-![image alt](https://github.com/shubham1919-cloud/BrainDesk-Ai/blob/89cc458e9106b18c1a40c7d50a88d84845418edf/setup%20page.jpg)
+Users retain full control over exporting or deleting locally stored memory files.
 
-### Initial Screen/Home
-*Screen appears after the app starts*
-![image alt](https://github.com/shubham1919-cloud/BrainDesk-Ai/blob/6e1251c95f4d87666de5c697a23ea6025b4b85b0/Initial%20screen.png)
+Core system files are restricted from modification.
 
-### Chat Screen 
-*With an immersive background video slideshow*
-![image alt](https://github.com/shubham1919-cloud/BrainDesk-Ai/blob/6e1251c95f4d87666de5c697a23ea6025b4b85b0/Chatscreen.png)
+# 6. BrainDesk-Ignite Companion
 
-### Account Dropdown menu 
-*Shows the details of user (like Name, Email, Assistant-voice they selected etc.)*
-![image alt](https://github.com/shubham1919-cloud/BrainDesk-Ai/blob/6e1251c95f4d87666de5c697a23ea6025b4b85b0/Account%20info%20dropdown.png)
+BrainDesk-Ignite is an optional voice-trigger companion module.
 
-### About 
-*When user clicks on "About" button from the account info dropdown menu, the app version shows.*
-![image alt](https://github.com/shubham1919-cloud/BrainDesk-Ai/blob/6e1251c95f4d87666de5c697a23ea6025b4b85b0/app%20version.png)
+**Capabilities:**
 
-### Clear History 
-*When user clicks on "Clear History" button from the account info dropdown menu, the previous conversation is cleared.*
-![image alt](https://github.com/shubham1919-cloud/BrainDesk-Ai/blob/6e1251c95f4d87666de5c697a23ea6025b4b85b0/Clear%20chat%20hist.png)
+    • Wake-word activation ("Hey Ignite", "Okay Ignite")
 
-### Give Feedback 
-*When user clicks on "Give Feedback" button from the account info dropdown menu, the submit feedback page shows up.*
-![image alt](https://github.com/shubham1919-cloud/BrainDesk-Ai/blob/6e1251c95f4d87666de5c697a23ea6025b4b85b0/Submit%20feedback.png)
+    • Auto-start on Windows login (if enabled)
 
-### Sign Out 
-*When user clicks on "Sign-Out" button from the account info dropdown menu, the sign-out confirmation message shows up and when pressed yes the data is erased and you need to login again.*
-![image alt](https://github.com/shubham1919-cloud/BrainDesk-Ai/blob/6e1251c95f4d87666de5c697a23ea6025b4b85b0/signout.png)
+    • Hands-free command relay to BrainDesk-AI
 
----
+Ignite does not independently collect or transmit user data beyond operational voice command handling.
 
-Created by
+# 7. Security Model
 
-Shubham Raj – Solo Developer | AI Enthusiast | Visionary
-“BrainDesk is more than a virtual assistant—it's a personal reality companion.”
+  • Local data storage
+
+  • No embedded tracking systems
+
+  • Obfuscated core algorithms
+
+  • Selective regeneration of non-critical missing files
+
+  • No remote developer access
+
+Users are responsible for maintaining system security and antivirus protection.
+
+# 8. Known Limitations
+
+  • Beta version — may contain bugs
+
+  • Performance depends on system hardware
+
+  • Image generation limited per request
+
+  • No guaranteed uptime of third-party API services
+
+  • Accuracy of AI-generated responses is not guaranteed
+
+# 9. Usage Boundaries
+
+BrainDesk-Ai is not:
+
+  • A medical system
+
+  • A legal advisory system
+
+  • A financial advisory system
+
+  • A security monitoring tool
+
+  • A surveillance application
+
+Users assume full responsibility for how they use generated outputs.
+
+# 10. Liability Statement
+
+BrainDesk-Ai is provided "**as-is**" without warranties of any kind.
+
+The developer is not responsible for:
+
+  • Misuse of generated content
+
+  • System instability caused by modification
+
+  • Loss of user data
+
+  • Decisions made based on AI output
+
+  • Damages arising from third-party API services
